@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .featured {
   display: flex;
   justify-content: space-around;
@@ -66,3 +67,34 @@ h2 {
   font-size: 1rem;
   color: #ddd;
 }
+=======
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display : flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+
+.featuredItem{
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+}
+
+.FeatureImg{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.featuredTitles{
+    /* color: #132043; */
+    color:white;
+    position: absolute;
+    bottom: 5px;
+}
+>>>>>>> 107386e2c56d5dde13920e4917298ac6fabd25ad
