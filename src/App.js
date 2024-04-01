@@ -1,6 +1,5 @@
 import { BrowserRouter , Routes , Route } from "react-router-dom";
 import Home from "./pages/home/Home";
-import HOMEmain from "./pages/HOMEmain/homemain";
 import List from "./pages/list/List";
 import Hotels from "./pages/Hotels/hotels";
 import Login from "./pages/login/Login";
@@ -17,7 +16,6 @@ function App(){
         <Route path = "/hotels/:id" element = {<Hotels/>}/>
         <Route path = "/login" element = {<Login/>}/>
         <Route path = "/register" element = {<Register/>}/>
-        <Route path = "/homemain" element = {<HOMEmain/>}/>
         <Route path = "/profile" element = { <Profile />} />
       </Routes>
     </BrowserRouter> 
